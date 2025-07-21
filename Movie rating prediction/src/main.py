@@ -7,7 +7,7 @@ from sklearn.metrics import mean_squared_error
 
 def main():
     print("Loading dataset...")
-    path = r'D:\Git\internship\Movie rating prediction\Data\IMDb Movies India.csv'
+    path = r'D:\Git\internship\CODSOFT\Movie rating prediction\Data\IMDb Movies India.csv'
     df = pd.read_csv(path, encoding='ISO-8859-1')
 
     print("Dataset loaded. Shape:", df.shape)
