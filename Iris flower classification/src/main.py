@@ -4,7 +4,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
-df = pd.read_csv(r'Iris flower classification\Data\IRIS.csv')
+df = pd.read_csv(r'D:\Git\internship\CODSOFT\Iris flower classification\Data\IRIS.csv')
 
 X = df.drop('species', axis=1)
 y = df['species']

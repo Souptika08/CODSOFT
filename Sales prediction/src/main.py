@@ -1,7 +1,7 @@
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 
-df = pd.read_csv(r"D:\Git\internship\Sales prediction\Data\advertising.csv")
+df = pd.read_csv(r"D:\Git\internship\CODSOFT\Sales prediction\Data\advertising.csv")
 X = df[['TV', 'Radio', 'Newspaper']]
 y = df['Sales']
 
